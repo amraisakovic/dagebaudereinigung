@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>DA </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,41 +11,58 @@
     <div class="logo">
         <img src="./assets/DA%20Logo.pdf.png" alt="DA Gebäudereinigung Logo">
     </div>
+    <p>Glänzende Ergebnisse, jedes Mal!</p>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="">Join the Team</a></li>
-            <li><a href="about.html">About Us</a></li>
+<!--            <li><a href="#">Join the Team</a></li>-->
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
     </nav>
+
     <div class="contact-icons">
-        <img src="email-icon.png" alt="Email">
-        <img src="phone-icon.png" alt="Phone">
+        <div class="email">
+        <img src="./assets/email-icon.png" alt="Email">
+            <a href="mailto:info@dagebaeudereinigung.de" class="email-link"> info@dagebeaudereinigung.de</a>
+        </div>
+        <div class="phone">
+        <img src="./assets/phone-icon.png" alt="Phone">
+            <a href="tel:01788903658" class="phone-text">0178 8903658</a>
+            <a href="tel:017661862184" class="phone-text">0176 61862184</a>
+        </div>
     </div>
+
 </header>
 <main>
-    <section id="top" class="hero">
-        <img src="hero-image.jpg" alt="Cleaning service">
-    </section>
+
     <section id="intro" class="intro">
         <h1>Experience life in a clean environment</h1>
-        <p>We believe that everyone deserves a space meant solely for them. Claim yours with our community of trusted brokers and diverse range of properties.</p>
-        <button>Learn More</button>
+        <p>Welcome to DA, where we take pride in providing exceptional cleaning services tailored to meet the unique needs of your home or business. Our dedicated team of professionals utilizes the latest techniques and eco-friendly products to ensure a spotless, healthy environment for you, your family, and your employees. Whether it’s a one-time deep clean or a regular maintenance schedule, we are committed to delivering top-notch service with a personal touch. Discover the difference a professional cleaning can make—trust DA to keep your spaces sparkling clean and fresh.</p>
     </section>
+
     <section id="services" class="services">
-        <div class="service-box">
-            <h2>A community of trusted brokers</h2>
-            <p>Highlight a specific service or product...</p>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="assets/1stoption.png" alt="Image 1"></div>
+                <div class="slide"><img src="assets/2ndoption.png" alt="Image 2"></div>
+                <div class="slide"><img src="assets/3rdoption.png" alt="Image 3"></div>
+            </div>
+            <script src="script.js"></script>
         </div>
-        <div class="service-box">
-            <h2>A space for work, a space for play</h2>
-            <p>Highlight a specific service or product...</p>
-        </div>
-        <div class="service-box">
-            <h2>A pleasant browsing experience</h2>
-            <p>Highlight a specific service or product...</p>
-        </div>
+
+<!--        <div class="service-box">-->
+<!--            <h2>Unterhaltsreinigung</h2>-->
+<!--            <p>Highlight a specific service or product...</p>-->
+<!--        </div>-->
+<!--        <div class="service-box">-->
+<!--            <h2>Sonderreinigung</h2>-->
+<!--            <p>Highlight a specific service or product...</p>-->
+<!--        </div>-->
+<!--        <div class="service-box">-->
+<!--            <h2>Hausmesterservice</h2>-->
+<!--            <p>Highlight a specific service or product...</p>-->
+<!--        </div>-->
     </section>
     <section class="property-listing">
         <h1>Bright and airy 2-storey townhouse</h1>
@@ -66,13 +83,10 @@
             <p>2 Beds | 2 Baths | 120 sqm</p>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
         <h1>You have a place here</h1>
         <p>Write a paragraph that talks about your real estate firm...</p>
         <div class="contact-buttons">
-            <button>Buy</button>
-            <button>Sell</button>
-            <button>Rent</button>
         </div>
     </section>
 </main>
