@@ -265,13 +265,14 @@ i.fab.fa-instagram {
     text-align: center;
 }
 .video a{
-    font-size: 2.2rem;
+    /*font-size: 2.2rem;*/
     color: #fff;
-    width: 65px;
-    height: 65px;
+    border: none;
+    background-color: #468ECB;
     border-radius: 50%;
-    background-color: var(--mount-meadow);
-    padding-left: 7px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 .video h2{
@@ -284,6 +285,7 @@ i.fab.fa-instagram {
     letter-spacing: 1px;
     color: var(--white-smoke);
     opacity: 0.7;
+    padding: 20px;
 }
 
 /* team */
@@ -315,7 +317,7 @@ i.fab.fa-instagram {
     transition: var(--transition);
 }
 .team-icons a:hover{
-    background: var(--mount-meadow);
+    background: #468ECB;
     color: #fff;
 }
 .team-img:hover .team-icons{
@@ -379,6 +381,10 @@ i.fab.fa-instagram {
 .pricing .row{
     margin-top: 2rem;
 }
+
+.pricing{
+    background-color: #468ECB;
+}
 .pricing-item{
     border: 2.5px solid #f9f9f9;
     text-align: center;
@@ -400,7 +406,7 @@ i.fab.fa-instagram {
 .pricing-item .price span:first-child{
     font-size: 2.6rem;
     letter-spacing: 2px;
-    color: var(--mount-meadow);
+    color: #468ECB;
 }
 .pricing-item .price span:last-child{
     font-size: 0.85rem;
@@ -492,7 +498,7 @@ i.fab.fa-instagram {
     border: none;
     font-size: 1.3rem;
     color: #fff;
-    background: var(--mount-meadow);
+    background: #468ECB;
     opacity: 0.9;
     padding: 0.8rem 3.4rem;
     border-radius: 2rem;
@@ -703,4 +709,10 @@ i.fab.fa-instagram {
 }
 .team{
     background-color: #468ECB;
+}
+
+.cleaning-img{
+    width: 100%;
+    height: 100%;
+
 }
