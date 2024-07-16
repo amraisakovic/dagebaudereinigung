@@ -80,7 +80,7 @@ section{
 
 /* header */
 .header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/2ndoption.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/2ndoption.png);
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -882,7 +882,7 @@ i.fab.fa-instagram {
 
 .team {
     background-color: #fff; /* Background color */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),url(../assets/bcg11.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
     color: #468ECB; /* Text color */
     padding: 50px 0;
 }
@@ -959,4 +959,24 @@ i.fab.fa-instagram {
     .team .title p {
         font-size: 16px;
     }
+}
+
+#instagram-feed {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#instagram-feed h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.insta-feed-wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.partner{
+    color: white;
 }
