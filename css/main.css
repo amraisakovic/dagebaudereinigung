@@ -742,15 +742,13 @@ i.fab.fa-instagram {
         column-gap: 4rem;
     }
     .contact-right {
-        margin-top: 7%;
+    margin-top: 2%;
+       display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
     }
-}
-
-.contact {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: #888888;
 }
 
 .contact-right a {
@@ -867,6 +865,7 @@ i.fab.fa-instagram {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/0-02-05-e7fe390e96240cea66b3c2611da18f4765545c7d2414783dec087c2f65deeb2e_ae285abae29872b8.jpg);
     color: #fff;
     text-align: center;
+    background-size: cover;
 }
 
 .contact-section .text {
@@ -1032,3 +1031,93 @@ i.fab.fa-instagram {
         padding: 24px;
     }
 }
+
+#cookieConsent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    display: none;
+    box-sizing: border-box;
+}
+
+.cookie-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+#cookieConsent p {
+    margin: 0;
+    flex: 1 1 300px;
+    text-align: left;
+}
+
+#cookieConsent button {
+    background-color: #468ECB;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0 1 auto;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .cookie-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #cookieConsent p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #cookieConsent button {
+        margin: 0 auto;
+    }
+}
+
+.partner{
+    color:white;
+}
+
+.office{
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    color: white;
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+
+.number{
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    color: white;
+    padding: 20px;
+    width: fit-content;
+}
+.email{
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    color: white;
+    padding: 35px;
+    width: fit-content;
+}
+
+.slatko{
+    display: flex;
+    flex-direction: column;
+}
+

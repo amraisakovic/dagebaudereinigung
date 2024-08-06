@@ -104,3 +104,21 @@ window.onclick = function(event) {
         popup.style.display = "none";
     }
 }
+
+// Check if the user has already accepted cookies
+function checkCookieConsent() {
+    const cookieConsent = localStorage.getItem('cookieConsent');
+    if (!cookieConsent) {
+        document.getElementById('cookieConsent').style.display = 'block';
+    }
+}
+
+// Function to handle cookie acceptance
+function acceptCookies() {
+    localStorage.setItem('cookieConsent', 'accepted');
+    document.getElementById('cookieConsent').style.display = 'none';
+}
+
+// Call the function to check cookie consent on page load
+window.onload = checkCookieConsent;
+

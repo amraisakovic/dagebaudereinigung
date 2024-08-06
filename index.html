@@ -30,6 +30,8 @@
 
         gtag('config', 'AW-16635455098');
     </script>
+    <link rel="icon" type="image/png" href="assets/DA%20Logo.pdf.png">
+
 </head>
 <body>
 
@@ -134,7 +136,7 @@
 </section>
 <!-- end of detail section -->
 
-<!-- socal media section -->
+<!-- social media section -->
 <section class = "video">
     <div class = "container">
         <h2 class = "wow animate__animated animate__fadeInUp animate__slow">Schauen Sie sich unser Instagram an!</h2>
@@ -218,21 +220,25 @@
             <p class = "text">Haben Sie Fragen oder möchten Sie einen Termin vereinbaren? Kontaktieren Sie uns noch heute und wir helfen Ihnen gerne weiter.</p>
 
             <div class = "contact-right">
-                <div>
+                <div class="office">
                     <h2>Office</h2>
                     <p class = "text">Vorwerkstraße 41, 89231, Neu-Ulm, Deutschland</p>
+                    <img class="office-img" src="assets/neuulm.jpg" alt="office">
                 </div>
-                <div>
+                <div class="slatko">
+                <div class="number">
                     <h2>Telefonnummer</h2>
                     <a href="tel:+491788903658">0178 8903658</a>
                     <a href="tel:+4917661862184">0176 61862184</a>
                 </div>
-                <div>
+                <div class="email">
                     <h2>Email</h2>
                     <a href="mailto:info@dagebaeudereinigung.de">info@dagebaeudereinigung.de</a>
                 </div>
-                <button id="impressumBtn">Impressum</button>
+                </div>
+
 </div>
+            <button id="impressumBtn">Impressum</button>
         </div>
     </div>
         </div>
@@ -265,6 +271,15 @@
 </div>
 <!-- end of contact section -->
 
+<!-- cookie consent -->
+<div id="cookieConsent">
+    <div class="cookie-container">
+        <p>Wir verwenden Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website machen. Indem Sie unsere Website weiterhin nutzen, akzeptieren Sie unsere Cookie-Richtlinie.</p>
+        <button id="acceptCookies" onclick="acceptCookies()">Akzeptieren</button>
+    </div>
+</div>
+<!-- end of cookie consent -->
+
 <!-- footer -->
 <footer class = "footer center">
     <div class = "container">
@@ -280,6 +295,8 @@
     </div>
 </footer>
 <!-- end of footer -->
+
+
 
 <!-- jQuery -->
 <script src = "resources/jquery-3.5.1.js"></script>
