@@ -122,3 +122,28 @@ function acceptCookies() {
 // Call the function to check cookie consent on page load
 window.onload = checkCookieConsent;
 
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to animate the counting effect
+    function animateCountUp(element) {
+        const target = +element.getAttribute('data-target');
+        const speed = 200; // Speed of the count-up effect
+
+        const updateCount = () => {
+            const current = +element.innerText;
+            const increment = Math.ceil(target / speed);
+
+            if (current < target) {
+                element.innerText = current + increment;
+                setTimeout(updateCount, 20); // Adjust delay for speed
+            } else {
+                element.innerText = target; // Ensure final number is exact
+            }
+        };
+
+        updateCount();
+    }
+
+    // Select all elements with the 'count' class and animate them
+    const counters = document.querySelectorAll('.count');
+    counters.forEach(counter => animateCountUp(counter));
+});
